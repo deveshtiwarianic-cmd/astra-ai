@@ -1,0 +1,11 @@
+{
+  "name":"Astra AI — Devesh Tiwari",
+  "short_name":"Astra AI",
+  "start_url":"/",
+  "scope":"/",
+  "display":"standalone",
+  "background_color":"#07101f",
+  "theme_color":"#07101f",
+  "description":"A multilingual AI assistant developed by Devesh Tiwari.",
+  "icons":[{"src":"/icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]
+}

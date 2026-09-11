@@ -1,0 +1,22 @@
+ASTRA 10 — PHONE + VERCEL
+
+1) Upload this project to GitHub while keeping the folders exactly like this:
+   api/chat.js
+   api/status.js
+   public/index.html
+   public/icon.svg
+   public/manifest.json
+   public/sw.js
+   server.js
+   package.json
+   vercel.json
+
+2) Import the GitHub repository into Vercel.
+3) In Vercel → Settings → Environment Variables add:
+   OPENAI_API_KEY = your own OpenAI API key (Production)
+4) Redeploy after adding/changing the key.
+5) Open https://YOUR-DOMAIN/api/status
+   Expected: ok:true and configured:true
+6) Open the main site and test Astra.
+
+Never put the real API key inside public/index.html or GitHub.
